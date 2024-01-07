@@ -199,5 +199,49 @@ main section {
     border: none;
     margin-left: 65px;
 
+}
+
+/* Footer section styles */
+footer {
+    display: flex;
+    gap: 100px;
+    background-color: #151414;
+    padding: 130px 200px;
+}
+
+.footer-header {
+    color: white;
+}
+
+.footer-para {
+    color: white;
+}
+
+.social-links a {
+    margin-right: 25px;
+    text-align: center;
+}
+
+.btn-footer {
+    border-radius: 6px;
+    background: #FFF;
+    color: #F15B22;
+    width: 130px;
+    height: 44px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-form input[type='email'] {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: white;
+    border-radius: 5px;
+    background: black;
+    border: 0px;
+    width: 100%;
+    border-style: solid;
+    border-color: white;
 
 }
