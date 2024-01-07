@@ -165,12 +165,39 @@ main section {
 
 .call-now-div {
     background-image: url('../images/gradient2.png'), url('../images/watch.png');
+    background-repeat: no-repeat;
     width: 1140px;
     height: 300px;
     padding: auto;
+    padding-bottom: 30px;
 
 }
 
 .call-now-header {
-    color: white;
+    color: #FFF;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: left;
+    padding: 60px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.header-div {
+    margin-right: 600px;
+}
+
+.btn-call-now {
+    border-radius: 5px;
+    background: white;
+    width: 130px;
+    height: 44px;
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    margin-left: 65px;
+
+
 }
